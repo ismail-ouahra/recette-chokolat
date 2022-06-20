@@ -1,0 +1,151 @@
+
+      body{
+        background-color: #8BA1BB;
+        font-family: Arial;
+        margin:0px;
+        }
+      P.categorie{
+          background-color: black;
+          color:white;
+          display:inline-block;
+          padding: 8px 18px;
+          margin: 0px 0px 0px 30px;
+          font-weight: bold;
+          font-size: 18px;
+          font-style: italic;
+  
+        }
+      div.categorie{
+          margin-bottom: -18px;
+          margin-top: 60px;
+        }
+          
+      div.contenu{
+        background-color:white;
+        margin:0px 10% 80px 10% ;
+        padding: 30px;
+        min-width: 350px;
+        box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+        }
+      h1{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 12px;
+        }
+      p.description{
+          text-align:center ;
+          max-width: 400px;
+          display:inline-block;
+          font-size: 14px;
+        }
+      .center{
+          text-align: center;
+          width: 100%;
+          }
+      div.seperateur{
+          width: 150px;
+          height: 2px;
+          background-color: black;
+          margin: auto;
+        }
+      div.info{
+        position : relative;
+         background-color: red;
+        }
+      table.info{
+        position : absolute; 
+        bottom: 0 ;
+        width: 100% ; 
+        color: white; 
+        background-color: #6C829D8F;
+        height:50px ;
+            
+        }
+        table.info td{
+          text-align: center;
+          font-size: 15px;
+          vertical-align: top;
+        }
+        
+        table.info th{
+          font-size: 16px;
+          vertical-align: bottom;
+          padding-bottom: 8px ;
+        }
+        img.info{
+            display: block;
+            max-height: 400px;
+            min-height: 200px;
+            object-fit: cover;
+        }
+        div.colonne{
+            width: 45% ;
+            margin-top: 20px;
+        }
+
+        div.colonne h2{
+            text-align: center;
+            text-transform:uppercase;
+            font-size: 16px;
+            border-bottom: 5px solid #6C829D;
+        }
+
+        div.colonne1 {
+            display: inline-block;
+            margin-right: 10%;
+
+        }
+        div.colonne2 {
+            float: right;
+            
+        }
+        div.ingr p{
+            text-align: center;
+            font-size: 14px;
+            border: 1px solid #6C829D; 
+            padding: 8px 0 ;
+            margin-top: 4px ;
+            margin-bottom: 0px ;
+        }
+        table.preparataion p.numero{
+            background-color: #6C829D;
+            color:white;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            padding-top: 4px;
+            box-sizing: border-box;
+            border-radius: 40%;
+            margin: 0 ;
+
+        }
+        table.preparataion td {
+            vertical-align: top;
+        }
+        table.preparataion th { 
+            height: 100px;
+        }
+
+        table.preparataion td.preparataion_etape{
+            font-size: 14px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+
+        }
+        *{
+            overflow: auto;
+        }
+       
+        h5.signature{
+            text-align: center;
+            font-style: italic;
+            font-size: 10px;
+            border: 1px solid ;
+            background-color: #6C829D;
+            color:white;
+            border-radius:  20%;
+            padding : 5px 20px 5px 20px;
+        }
+       
